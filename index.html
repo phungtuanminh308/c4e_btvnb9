@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FREAKING MATH</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="game" id="game">
+        <div class="game--time" id="time">TIME: 3s</div>
+        <div class="game--score" id="score">0</div>
+        <div class="game--function">
+            <div class="game--function__num" id="first">##</div>
+            <div class="game--function__num" id="middle">##</div>
+            <div class="game--function__num" id="last">##</div>
+        </div>
+        <div class="game--result">
+            <div class="game--function__num">=</div>
+            <div class="game--function__num" id="result">##</div>
+        </div>
+        <div class="game--button">
+            <button class="game--button__true" onclick="dung()">✔</button>
+            <button class="game--button__false" onclick="sai()">✖</button>
+        </div>
+    </div>
+    <div class="welcome" id="welcome">
+        <div class="welcome--name">FREAKING MATH</div>
+        <button class="welcome--username__play" onclick="play()">▶ PLAY</button>
+    </div>
+    <div class="leaderboard" id="leaderboard">
+        <div class="leaderborad--result">
+            <div class="leaderboard--result__point" id="point">0</div>
+            <div class="leaderboard--result__complain">GAME OVER!</div>
+        <button class="leaderboard--result__play" onclick="play()">♻ PLAY AGAIN?</button>
+    </div>
+
+
+</body>
+<script src="./index.js"></script>
+
+</html>

@@ -1,0 +1,139 @@
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    background-color: #C6EFCE;
+    color: #006100;
+    font-family: 'Concert One', cursive;
+    font-size: 50px;
+}
+.welcome--username__play {
+    color: #C6EFCE;
+    background-color: #006100;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #006100;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.welcome--username__play:hover {
+    border-color: #006100;
+    color: #006100;
+    background-color: #C6EFCE;
+}
+.welcome--name {
+    font-size: 100px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+.leaderboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    z-index: -11;
+    background-color: #FFC7CE;
+    color: #9C0006;
+    font-family: 'Concert One', cursive;
+}
+.leaderborad--result {
+font-size: 100px;
+text-align: center;
+}
+.leaderboard--result__play {
+    color: #FFC7CE;
+    background-color: #9C0006;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #9C0006;
+    cursor: pointer;
+    font-size: 50px;
+}
+.leaderboard--result__play:hover {
+    color: #9C0006;
+    background-color: #FFC7CE;
+    border-color: #9C0006;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+.game {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #738FA3;
+}
+.game--time {
+    position: absolute;
+    left: 5vw;
+    top: 5vh;
+    color: #DAEDFD;
+    font-family: 'Concert One', cursive;
+    font-size: 40px;
+}
+.game--function {
+    display: flex;
+}
+.game--result {
+    display: flex;
+}
+.game--score {
+    position: absolute;
+    right: 5vw;
+    top: 5vh;
+    color: #DAEDFD;
+    font-family: 'Concert One', cursive;
+    font-size: 40px;
+}
+.game--function__num {
+    color: #DAEDFD;
+    font-family: 'Concert One', cursive;
+    font-size: 60px;
+}
+.game--button {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+
+}
+.game--button__true {
+    margin-right: 10vw;
+    height: 30vh;
+    width: 30vh;
+    color: #46A0DC;
+    background-color: #DAEDFD;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 50px;
+}
+.game--button__false {
+    margin-left: 10vw;
+    height: 30vh;
+    width: 30vh;
+    color: #C2462C;
+    background-color: #DAEDFD;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 50px;
+}
